@@ -1,0 +1,213 @@
+* {
+    
+}
+
+body {
+    background-color: rgb(241, 235, 194);
+}
+
+.Header{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 30px;
+    user-select: none;
+    margin: 10px;
+}
+
+.Inner_Header {
+    font-size: 40px;
+    text-align: center;
+    padding: 12px;
+}
+
+.Navigation {
+
+}
+
+a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(31, 92, 103);
+}
+
+.ul1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.li1 {
+    
+    list-style: none;
+    padding: 2px;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.li1:hover {
+    list-style-type: none;
+    font-style:none;
+    color: rgb(31, 92, 103);
+    
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    
+    border-radius: 30px;
+    
+    margin: 10px;
+}
+
+.navigation2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ul2 {
+    width: 250px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.li2 {
+    margin: 5px;
+    padding: 12px;
+    list-style: none;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.li2:hover {
+    list-style-type: none;
+    font-style:none;
+    margin-left: 18px;
+    color: rgb(31, 92, 103);
+    
+}
+
+.ul3 {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.information {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 10px;
+    list-style: none;
+   
+}
+
+.li3{
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+.li4 {
+    font-size: 16px;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    margin: 12px;
+    user-select: none;
+}
+
+.ul4 {
+    list-style: none;
+}
+
+.Schema {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.ämnen {
+
+}
+
+.Headertext {
+text-align: center;
+font-size: 30px;
+padding: 10px;
+user-select: none;
+}
+
+.ämnenlista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.ämne-kort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.ämne-kort:hover {
+    background-color:rgb(241, 235, 194);
+    color:rgba(40, 40, 40,);
+    
+}
+
+.ämne-info h5 {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+    user-select: none;
+}
+
+h3 {
+    font-size:22px;
+    padding-left: 16px;
+    user-select: none;
+    color: black;
+}
+
+h4 {
+    font-size: 16px;
+    padding-left: 16px;
+    color: rgb(54, 53, 50);
+}
+
+.minprofil {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+   
+}
